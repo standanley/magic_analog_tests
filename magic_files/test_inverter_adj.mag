@@ -1,0 +1,104 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1618045536
+<< nwell >>
+rect 520 540 960 680
+rect 720 140 740 540
+rect 940 140 960 540
+<< psubdiff >>
+rect 780 -40 860 -16
+rect 780 -164 860 -140
+<< nsubdiff >>
+rect 700 600 760 640
+rect 700 500 760 540
+<< psubdiffcont >>
+rect 780 -140 860 -40
+<< nsubdiffcont >>
+rect 700 540 760 600
+<< locali >>
+rect 760 616 980 620
+rect 700 600 980 616
+rect 760 580 980 600
+rect 700 524 760 540
+rect 940 444 980 580
+rect 906 440 980 444
+rect 900 380 980 440
+rect 780 -40 860 -24
+rect 680 -140 780 -40
+rect 780 -156 860 -140
+<< metal1 >>
+rect 590 480 600 540
+rect 660 480 670 540
+rect 810 480 820 540
+rect 880 480 890 540
+rect 880 400 900 420
+rect 880 380 940 400
+rect 680 300 820 360
+rect 520 240 600 280
+rect 900 260 940 380
+rect 1060 260 1070 400
+rect 520 10 560 240
+rect 590 140 600 200
+rect 660 140 670 200
+rect 810 140 820 200
+rect 880 140 890 200
+rect 600 100 660 140
+rect 590 40 600 100
+rect 660 40 670 100
+rect 520 -40 600 10
+rect 680 -140 780 -40
+rect 590 -280 600 -220
+rect 660 -280 670 -220
+<< via1 >>
+rect 600 480 660 540
+rect 820 480 880 540
+rect 940 260 1060 400
+rect 600 140 660 200
+rect 820 140 880 200
+rect 600 40 660 100
+rect 600 -280 660 -220
+<< metal2 >>
+rect 600 540 660 550
+rect 600 200 660 480
+rect 600 100 660 140
+rect 820 540 880 550
+rect 820 200 880 480
+rect 940 400 1060 410
+rect 940 250 1060 260
+rect 820 130 880 140
+rect 600 -220 660 40
+rect 700 -40 780 -30
+rect 700 -150 780 -140
+rect 600 -290 660 -280
+<< via2 >>
+rect 940 260 1060 400
+rect 700 -140 780 -40
+<< metal3 >>
+rect 930 400 1070 405
+rect 930 260 940 400
+rect 1060 260 1070 400
+rect 930 255 1070 260
+rect 680 -40 800 -20
+rect 680 -140 700 -40
+rect 780 -140 800 -40
+rect 680 -160 800 -140
+use sky130_fd_pr__nfet_01v8_DM32AP  sky130_fd_pr__nfet_01v8_DM32AP_0
+timestamp 1618014455
+transform 1 0 633 0 1 -92
+box -73 -188 73 188
+use sky130_fd_pr__pfet_01v8_CW6TWB  sky130_fd_pr__pfet_01v8_CW6TWB_1
+timestamp 1618038281
+transform 1 0 849 0 1 340
+box -109 -200 109 200
+use sky130_fd_pr__pfet_01v8_CW6TWB  sky130_fd_pr__pfet_01v8_CW6TWB_0
+timestamp 1618038281
+transform 1 0 629 0 1 340
+box -109 -200 109 200
+<< labels >>
+rlabel metal1 520 100 560 140 1 out
+rlabel space 880 340 920 380 1 vdd
+rlabel via1 820 140 880 200 1 ctrl
+rlabel metal2 600 100 660 140 1 in
+rlabel space 660 -120 700 -80 1 vss
+<< end >>
