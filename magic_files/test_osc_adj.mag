@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1618050329
+timestamp 1618247993
 << nwell >>
 rect 20 420 2860 980
 << metal1 >>
@@ -113,30 +113,30 @@ rect 1420 90 2450 100
 << metal3 >>
 rect 440 560 1740 680
 rect 200 160 1480 240
-use sky130_fd_pr__pfet_01v8_RXQGT8  sky130_fd_pr__pfet_01v8_RXQGT8_0
-timestamp 1618048189
-transform 1 0 2409 0 1 660
-box -449 -200 449 200
-use sky130_fd_pr__nfet_01v8_PE32AP  sky130_fd_pr__nfet_01v8_PE32AP_0
-timestamp 1618046600
-transform 1 0 2085 0 1 188
-box -365 -188 365 188
-use test_inverter_adj  test_inverter_adj_2 ~/EE272B/magic_tests
+use test_inverter_adj  test_inverter_adj_0 ~/EE272B/magic_tests
 timestamp 1618045536
-transform 1 0 700 0 1 290
+transform 1 0 -500 0 1 290
 box 520 -290 1070 680
 use test_inverter_adj  test_inverter_adj_1
 timestamp 1618045536
 transform 1 0 100 0 1 290
 box 520 -290 1070 680
-use test_inverter_adj  test_inverter_adj_0
+use test_inverter_adj  test_inverter_adj_2
 timestamp 1618045536
-transform 1 0 -500 0 1 290
+transform 1 0 700 0 1 290
 box 520 -290 1070 680
+use sky130_fd_pr__nfet_01v8_PE32AP  sky130_fd_pr__nfet_01v8_PE32AP_0
+timestamp 1618046600
+transform 1 0 2085 0 1 188
+box -365 -188 365 188
+use sky130_fd_pr__pfet_01v8_RXQGT8  sky130_fd_pr__pfet_01v8_RXQGT8_0
+timestamp 1618048189
+transform 1 0 2409 0 1 660
+box -449 -200 449 200
 << labels >>
-rlabel space 20 340 60 380 1 out
 rlabel metal3 480 600 520 640 1 vdd
 rlabel metal3 220 180 260 220 1 vss
 rlabel metal1 1920 320 1980 380 1 ctrl0
 rlabel metal1 2160 320 2220 380 1 ctrl1
+flabel space -20 250 100 300 1 FreeSans 800 0 0 0 out
 << end >>
