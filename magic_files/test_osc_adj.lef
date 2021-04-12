@@ -116,7 +116,7 @@ MACRO test_osc_adj
   END vdd
   PIN vss
     DIRECTION INOUT ;
-    USE POWER ;
+    USE GROUND ;
     PORT
       LAYER li1 ;
         RECT 9.140 0.420 9.310 1.460 ;

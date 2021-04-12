@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1618255843
+timestamp 1618256009
 << nwell >>
 rect 20 420 2860 980
 << metal1 >>
@@ -137,7 +137,7 @@ box 520 -290 1070 680
 rlabel metal3 480 600 520 640 1 vdd
 port 2 n power bidirectional
 rlabel metal3 220 180 260 220 1 vss
-port 3 n power bidirectional
+port 3 n ground bidirectional
 rlabel metal1 1920 320 1980 380 1 ctrl0
 port 4 n
 rlabel metal1 2160 320 2220 380 1 ctrl1
