@@ -8,8 +8,8 @@ MACRO test_osc_adj
   ORIGIN 0.100 0.400 ;
   SIZE 14.400 BY 5.300 ;
   PIN vdd
-    ANTENNAGATEAREA 0.600000 ;
-    ANTENNADIFFAREA 3.110000 ;
+    DIRECTION INOUT ;
+    USE POWER ;
     PORT
       LAYER nwell ;
         RECT 0.100 2.100 14.300 4.900 ;
@@ -115,7 +115,8 @@ MACRO test_osc_adj
     END
   END vdd
   PIN vss
-    ANTENNADIFFAREA 1.300000 ;
+    DIRECTION INOUT ;
+    USE POWER ;
     PORT
       LAYER li1 ;
         RECT 9.140 0.420 9.310 1.460 ;
