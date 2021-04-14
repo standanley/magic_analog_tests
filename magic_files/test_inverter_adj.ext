@@ -15,39 +15,39 @@ node "ctrl" 2 255.535 810 140 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "in" 3 501.615 590 -280 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21600 1080 50400 1800 0 0 0 0 0 0 0 0
 node "w_520_540#" 38685 544.286 520 540 nw 0 0 0 0 77600 2760 0 0 8400 400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24856 1232 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "a_780_n164#" 0 0 780 -164 ppd 0 0 0 0 0 0 0 0 0 0 11840 456 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20560 624 0 0 0 0 0 0 0 0 0 0 0 0
-cap "ctrl" "in" 169.821
-cap "m1_880_380#" "w_520_540#" 107.766
-cap "m1_680_300#" "m1_880_380#" 33.75
 cap "ctrl" "w_520_540#" 0.57
-cap "m1_880_380#" "out" 3
 cap "m1_680_300#" "ctrl" 42.75
+cap "out" "in" 314.426
+cap "m1_680_n140#" "m1_680_300#" 14.5588
 cap "in" "w_520_540#" 0.57
-cap "in" "m1_680_n140#" 150
-cap "ctrl" "out" 10.8
 cap "m1_880_380#" "ctrl" 166.333
-cap "in" "out" 314.426
 cap "m1_880_380#" "in" 28.5714
 cap "m1_680_300#" "w_520_540#" 0.78
-cap "m1_680_300#" "m1_680_n140#" 14.5588
+cap "out" "m1_880_380#" 3
+cap "ctrl" "in" 169.821
+cap "m1_880_380#" "w_520_540#" 107.766
+cap "m1_680_n140#" "in" 150
+cap "out" "ctrl" 10.8
+cap "m1_680_300#" "m1_880_380#" 33.75
 subcap "m1_680_n140#" -328.009
 subcap "out" -0.1028
 subcap "m1_680_300#" -0.3
 subcap "ctrl" -123.004
 subcap "in" -236.985
 subcap "a_780_n164#" -137.04
-cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n33_n197#" "sky130_fd_pr__nfet_01v8_DM32AP_0/a_15_n100#" 263.702
-cap "sky130_fd_pr__nfet_01v8_DM32AP_0/a_15_n100#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" 15.0778
-cap "sky130_fd_pr__nfet_01v8_DM32AP_0/a_15_n100#" "sky130_fd_pr__pfet_01v8_CW6TWB_1/a_n33_n197#" 7.93443
-cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/w_n109_n200#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n33_n197#" 7.10677
-cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n33_n197#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" 272.409
-cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n33_n197#" "sky130_fd_pr__pfet_01v8_CW6TWB_1/a_n33_n197#" 41.791
-cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n73_n100#" "sky130_fd_pr__nfet_01v8_DM32AP_0/a_15_n100#" 6.06897
-cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/w_n109_n200#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" 49.7161
 cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/w_n109_n200#" "sky130_fd_pr__pfet_01v8_CW6TWB_1/a_n33_n197#" 299.038
-cap "sky130_fd_pr__pfet_01v8_CW6TWB_1/a_n33_n197#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" 217.074
+cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/w_n109_n200#" 49.7161
 cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n73_n100#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n33_n197#" 468.02
+cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n73_n100#" "sky130_fd_pr__nfet_01v8_DM32AP_0/a_15_n100#" 6.06897
+cap "sky130_fd_pr__nfet_01v8_DM32AP_0/a_15_n100#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n33_n197#" 263.702
+cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n33_n197#" "sky130_fd_pr__pfet_01v8_CW6TWB_1/a_n33_n197#" 41.791
+cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n73_n100#" 73.1101
+cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n33_n197#" 272.409
+cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n33_n197#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/w_n109_n200#" 7.10677
 cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n73_n100#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/w_n109_n200#" 59.9382
-cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_n73_n100#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" 73.1101
+cap "sky130_fd_pr__nfet_01v8_DM32AP_0/a_15_n100#" "sky130_fd_pr__pfet_01v8_CW6TWB_1/a_n33_n197#" 7.93443
+cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" "sky130_fd_pr__nfet_01v8_DM32AP_0/a_15_n100#" 15.0778
+cap "sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" "sky130_fd_pr__pfet_01v8_CW6TWB_1/a_n33_n197#" 217.074
 merge "sky130_fd_pr__pfet_01v8_CW6TWB_1/a_15_n100#" "sky130_fd_pr__pfet_01v8_CW6TWB_1/w_n109_n200#" -132.871 0 0 0 0 -14400 -3272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -616 -148 -3040 -392 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__pfet_01v8_CW6TWB_1/w_n109_n200#" "sky130_fd_pr__pfet_01v8_CW6TWB_0/w_n109_n200#"
 merge "sky130_fd_pr__pfet_01v8_CW6TWB_0/w_n109_n200#" "w_520_540#"

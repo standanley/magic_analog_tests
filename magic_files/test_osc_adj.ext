@@ -1,4 +1,4 @@
-timestamp 1618342110
+timestamp 1618341048
 version 8.3
 tech sky130A
 style ngspice()
@@ -31,106 +31,106 @@ node "m1_n20_n80#" 17 2375 -20 -80 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "m1_2100_760#" 2 336.2 2100 760 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44000 1640 0 0 0 0 0 0 0 0 0 0
 node "w_20_420#" 10443 5779.2 20 420 nw 0 0 0 0 1926400 8000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "m1_2100_760#" "m1_1680_680#" 289
-cap "m1_1800_100#" "vss" 62.13
-cap "m1_n20_n80#" "m1_740_340#" 61.5789
-cap "m1_n20_n80#" "out" 410.616
-cap "m1_1610_530#" "m1_n20_n80#" 676.607
-cap "m1_1610_530#" "vdd" 22.5
-cap "out" "w_20_420#" 33.49
-cap "ctrl1" "m1_1710_220#" 252.829
-cap "ctrl0" "m1_1610_530#" 35
 cap "m1_1610_530#" "w_20_420#" 4.55
-cap "m1_1800_100#" "out" 283.333
-cap "m1_2100_760#" "ctrl1" 4.73684
-cap "m1_1610_530#" "m1_1800_100#" 331.857
-cap "out" "m1_1680_680#" 437.5
-cap "m1_2100_760#" "m1_1710_220#" 173.867
-cap "ctrl0" "m1_n20_n80#" 15
-cap "m1_n20_n80#" "w_20_420#" 32.24
-cap "vdd" "w_20_420#" 46.56
-cap "m1_n20_n80#" "m1_1800_100#" 384.652
-cap "m1_740_340#" "m1_140_340#" 33.75
-cap "ctrl0" "m1_1800_100#" 5.625
+cap "m1_1710_220#" "w_20_420#" 208.11
+cap "w_20_420#" "m1_1680_680#" 104.35
+cap "m1_740_340#" "m1_n20_n80#" 61.5789
+cap "m1_1610_530#" "m1_n20_n80#" 676.607
+cap "ctrl1" "ctrl0" 33.75
+cap "m1_1800_100#" "m1_n20_n80#" 384.652
 cap "m1_n20_n80#" "m1_1680_680#" 352.664
-cap "vdd" "m1_1680_680#" 24.6
-cap "m1_1610_530#" "ctrl1" 47.1053
-cap "ctrl0" "m1_1680_680#" 18
-cap "m1_1680_680#" "w_20_420#" 104.35
-cap "out" "m1_1710_220#" 28.9394
-cap "m1_1610_530#" "m1_1710_220#" 194.479
-cap "m1_n20_n80#" "m1_140_340#" 61.5789
-cap "m1_n20_n80#" "ctrl1" 30
-cap "ctrl0" "ctrl1" 33.75
-cap "m1_n20_n80#" "m1_1710_220#" 113.549
-cap "m1_1800_100#" "ctrl1" 28.125
-cap "m1_n20_n80#" "m1_2100_760#" 29.25
-cap "ctrl0" "m1_1710_220#" 138.12
-cap "w_20_420#" "m1_1710_220#" 208.11
-cap "m1_1680_680#" "ctrl1" 13.0645
-cap "m1_2100_760#" "w_20_420#" 28.6
-cap "m1_1800_100#" "m1_1710_220#" 943.141
-cap "m1_1610_530#" "m1_740_340#" 7.10526
+cap "m1_1710_220#" "m1_n20_n80#" 113.549
 cap "vdd" "vss" 204.75
-cap "m1_1680_680#" "m1_1710_220#" 1061.94
+cap "w_20_420#" "out" 33.49
+cap "vdd" "m1_1610_530#" 22.5
+cap "m1_2100_760#" "m1_1680_680#" 289
+cap "m1_1710_220#" "m1_2100_760#" 173.867
+cap "m1_140_340#" "m1_n20_n80#" 61.5789
+cap "vdd" "m1_1680_680#" 24.6
+cap "out" "m1_n20_n80#" 410.616
+cap "ctrl1" "m1_n20_n80#" 30
+cap "m1_740_340#" "m1_1610_530#" 7.10526
+cap "ctrl1" "m1_2100_760#" 4.73684
+cap "m1_1800_100#" "vss" 62.13
+cap "m1_1800_100#" "m1_1610_530#" 331.857
+cap "m1_1710_220#" "m1_1610_530#" 194.479
+cap "ctrl0" "m1_n20_n80#" 15
+cap "m1_1800_100#" "m1_1710_220#" 943.141
+cap "m1_1710_220#" "m1_1680_680#" 1061.94
+cap "m1_740_340#" "m1_140_340#" 33.75
+cap "w_20_420#" "m1_n20_n80#" 32.24
+cap "ctrl1" "m1_1610_530#" 47.1053
+cap "m1_1800_100#" "out" 283.333
+cap "m1_1800_100#" "ctrl1" 28.125
+cap "out" "m1_1680_680#" 437.5
+cap "m1_1710_220#" "out" 28.9394
+cap "ctrl1" "m1_1680_680#" 13.0645
+cap "m1_1710_220#" "ctrl1" 252.829
+cap "w_20_420#" "m1_2100_760#" 28.6
+cap "vdd" "w_20_420#" 46.56
+cap "m1_n20_n80#" "m1_2100_760#" 29.25
+cap "m1_1610_530#" "ctrl0" 35
+cap "m1_1800_100#" "ctrl0" 5.625
+cap "ctrl0" "m1_1680_680#" 18
+cap "m1_1710_220#" "ctrl0" 138.12
 subcap "vss" -414.779
 subcap "m1_1710_220#" -2588.92
 subcap "m1_n20_n80#" -1193.86
 subcap "w_20_420#" -3345.29
-cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n365_n100#" "test_inverter_adj_1/in" 3.39196
-cap "test_inverter_adj_0/m1_680_n140#" "test_inverter_adj_0/w_520_540#" 9.2007
-cap "test_inverter_adj_2/sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" "test_inverter_adj_0/w_520_540#" 140.229
-cap "test_inverter_adj_1/in" "test_inverter_adj_0/m1_680_n140#" 317.276
-cap "test_inverter_adj_0/in" "test_inverter_adj_0/m1_680_n140#" 204.256
-cap "test_inverter_adj_1/in" "test_inverter_adj_0/w_520_540#" 542.54
-cap "test_inverter_adj_0/in" "test_inverter_adj_0/w_520_540#" 318.086
-cap "test_inverter_adj_1/in" "test_inverter_adj_0/in" -33.75
-cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n365_n100#" "test_inverter_adj_0/out" 5.55556
-cap "test_inverter_adj_0/out" "test_inverter_adj_0/ctrl" 179.515
-cap "test_inverter_adj_0/sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" "test_inverter_adj_0/in" 93.0982
-cap "test_inverter_adj_0/out" "test_inverter_adj_0/m1_680_n140#" 264.051
-cap "test_inverter_adj_0/out" "test_inverter_adj_0/w_520_540#" 219.13
+cap "test_inverter_adj_0/w_520_540#" "test_inverter_adj_0/m1_680_n140#" 9.2007
 cap "test_inverter_adj_0/out" "test_inverter_adj_1/in" 90.9126
+cap "test_inverter_adj_0/w_520_540#" "test_inverter_adj_0/ctrl" 405.104
+cap "test_inverter_adj_0/w_520_540#" "test_inverter_adj_1/sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" 326.45
+cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n365_n100#" "test_inverter_adj_1/in" 3.39196
+cap "test_inverter_adj_0/in" "test_inverter_adj_1/in" -33.75
+cap "test_inverter_adj_0/out" "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n365_n100#" 5.55556
 cap "test_inverter_adj_0/out" "test_inverter_adj_0/in" 134.15
-cap "test_inverter_adj_1/sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" "test_inverter_adj_0/w_520_540#" 326.45
-cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n365_n100#" "test_inverter_adj_0/m1_680_n140#" 5.50415
-cap "test_inverter_adj_0/ctrl" "test_inverter_adj_0/w_520_540#" 405.104
-cap "test_inverter_adj_1/in" "test_inverter_adj_1/sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" 93.0982
-cap "test_inverter_adj_1/in" "test_inverter_adj_0/ctrl" 320.983
+cap "test_inverter_adj_0/m1_680_n140#" "test_inverter_adj_1/in" 317.276
+cap "test_inverter_adj_0/m1_680_n140#" "test_inverter_adj_0/out" 264.051
+cap "test_inverter_adj_0/sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" "test_inverter_adj_0/in" 93.0982
+cap "test_inverter_adj_0/w_520_540#" "test_inverter_adj_1/in" 542.54
+cap "test_inverter_adj_0/ctrl" "test_inverter_adj_1/in" 320.983
+cap "test_inverter_adj_1/sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" "test_inverter_adj_1/in" 93.0982
+cap "test_inverter_adj_0/w_520_540#" "test_inverter_adj_2/sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" 140.229
+cap "test_inverter_adj_0/w_520_540#" "test_inverter_adj_0/out" 219.13
+cap "test_inverter_adj_0/out" "test_inverter_adj_0/ctrl" 179.515
+cap "test_inverter_adj_0/m1_680_n140#" "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n365_n100#" 5.50415
+cap "test_inverter_adj_0/m1_680_n140#" "test_inverter_adj_0/in" 204.256
 cap "test_inverter_adj_0/in" "test_inverter_adj_0/ctrl" 141.469
+cap "test_inverter_adj_0/w_520_540#" "test_inverter_adj_0/in" 318.086
 subcap "m1_1800_100#" -1028.95
 subcap "m1_1710_220#" -323.962
-cap "sky130_fd_pr__pfet_01v8_RX8GT8_0/a_n221_n100#" "test_inverter_adj_1/ctrl" 24.5484
-cap "test_inverter_adj_2/sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" "test_inverter_adj_1/m1_880_380#" 214.175
-cap "test_inverter_adj_2/out" "test_inverter_adj_1/m1_880_380#" 26.337
-cap "test_inverter_adj_1/m1_880_380#" "test_inverter_adj_1/ctrl" 2651.76
-cap "test_inverter_adj_2/m1_680_n140#" "test_inverter_adj_1/ctrl" 1465.33
-cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n33_122#" "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n225_122#" -20.4356
-cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n33_122#" "test_inverter_adj_2/in" 1.25
-cap "test_inverter_adj_2/out" "test_inverter_adj_1/ctrl" 3.39196
-cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n225_122#" "test_inverter_adj_1/m1_880_380#" 0.0757576
-cap "test_inverter_adj_2/m1_680_n140#" "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n225_122#" 32.218
-cap "test_inverter_adj_2/in" "test_inverter_adj_1/m1_880_380#" 48.4177
-cap "test_inverter_adj_2/m1_680_n140#" "test_inverter_adj_2/in" 54.2155
-cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n225_122#" "test_inverter_adj_1/ctrl" 79.5285
-cap "sky130_fd_pr__pfet_01v8_RX8GT8_0/a_n221_n100#" "test_inverter_adj_1/m1_880_380#" 42.5071
+cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n225_122#" "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n33_122#" -20.4356
+cap "test_inverter_adj_1/ctrl" "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n33_122#" 136.569
+cap "test_inverter_adj_1/ctrl" "sky130_fd_pr__pfet_01v8_RX8GT8_0/a_n221_n100#" 24.5484
 cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n33_122#" "test_inverter_adj_1/m1_880_380#" 7.32245
+cap "sky130_fd_pr__pfet_01v8_RX8GT8_0/a_n221_n100#" "test_inverter_adj_1/m1_880_380#" 42.5071
+cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n225_122#" "test_inverter_adj_1/ctrl" 79.5285
+cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n33_122#" "test_inverter_adj_2/in" 1.25
+cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n225_122#" "test_inverter_adj_1/m1_880_380#" 0.0757576
+cap "test_inverter_adj_1/ctrl" "test_inverter_adj_1/m1_880_380#" 2651.76
 cap "test_inverter_adj_2/m1_680_n140#" "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n33_122#" 110.832
-cap "test_inverter_adj_2/in" "test_inverter_adj_1/ctrl" 80.0754
+cap "test_inverter_adj_1/ctrl" "test_inverter_adj_2/in" 80.0754
+cap "test_inverter_adj_2/in" "test_inverter_adj_1/m1_880_380#" 48.4177
+cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n225_122#" "test_inverter_adj_2/m1_680_n140#" 32.218
+cap "test_inverter_adj_2/m1_680_n140#" "test_inverter_adj_1/ctrl" 1465.33
 cap "test_inverter_adj_2/m1_680_n140#" "test_inverter_adj_1/m1_880_380#" 332.188
-cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_n33_122#" "test_inverter_adj_1/ctrl" 136.569
+cap "test_inverter_adj_2/sky130_fd_pr__pfet_01v8_CW6TWB_0/a_15_n100#" "test_inverter_adj_1/m1_880_380#" 214.175
+cap "test_inverter_adj_2/m1_680_n140#" "test_inverter_adj_2/in" 54.2155
+cap "test_inverter_adj_1/ctrl" "test_inverter_adj_2/out" 3.39196
+cap "test_inverter_adj_2/out" "test_inverter_adj_1/m1_880_380#" 26.337
 subcap "out" -463.183
-cap "sky130_fd_pr__nfet_01v8_CG72G3_0/a_n33_n100#" "sky130_fd_pr__nfet_01v8_PE32AP_0/a_303_n100#" 426.185
-cap "sky130_fd_pr__pfet_01v8_RX8GT8_0/w_n257_n200#" "sky130_fd_pr__nfet_01v8_CG72G3_0/a_15_122#" -6.864
-cap "sky130_fd_pr__pfet_01v8_RX8GT8_0/w_n257_n200#" "sky130_fd_pr__nfet_01v8_CG72G3_0/a_n33_n100#" -29.776
-cap "sky130_fd_pr__pfet_01v8_RX8GT8_0/w_n257_n200#" "sky130_fd_pr__pfet_01v8_RXQGT8_0/a_n33_n100#" -26.27
-cap "sky130_fd_pr__nfet_01v8_CG72G3_0/a_n33_n100#" "sky130_fd_pr__nfet_01v8_CG72G3_0/a_15_122#" 469.801
-cap "sky130_fd_pr__pfet_01v8_RXQGT8_0/a_111_131#" "sky130_fd_pr__nfet_01v8_CG72G3_0/a_15_122#" 41.6785
-cap "sky130_fd_pr__pfet_01v8_RXQGT8_0/a_n33_n100#" "sky130_fd_pr__nfet_01v8_CG72G3_0/a_15_122#" 335.855
-cap "sky130_fd_pr__nfet_01v8_CG72G3_0/a_n33_n100#" "sky130_fd_pr__pfet_01v8_RXQGT8_0/a_111_131#" 24.5484
 cap "sky130_fd_pr__nfet_01v8_CG72G3_0/a_n33_n100#" "sky130_fd_pr__pfet_01v8_RXQGT8_0/a_n33_n100#" 843.469
-cap "sky130_fd_pr__pfet_01v8_RXQGT8_0/a_111_131#" "sky130_fd_pr__pfet_01v8_RXQGT8_0/a_n33_n100#" 21.7236
-cap "sky130_fd_pr__nfet_01v8_PE32AP_0/a_303_n100#" "sky130_fd_pr__nfet_01v8_CG72G3_0/a_15_122#" 262.31
+cap "sky130_fd_pr__nfet_01v8_CG72G3_0/a_n33_n100#" "sky130_fd_pr__pfet_01v8_RX8GT8_0/w_n257_n200#" -29.776
+cap "sky130_fd_pr__nfet_01v8_CG72G3_0/a_15_122#" "sky130_fd_pr__pfet_01v8_RXQGT8_0/a_n33_n100#" 335.855
+cap "sky130_fd_pr__nfet_01v8_CG72G3_0/a_15_122#" "sky130_fd_pr__pfet_01v8_RX8GT8_0/w_n257_n200#" -6.864
+cap "sky130_fd_pr__nfet_01v8_CG72G3_0/a_n33_n100#" "sky130_fd_pr__pfet_01v8_RXQGT8_0/a_111_131#" 24.5484
+cap "sky130_fd_pr__nfet_01v8_CG72G3_0/a_15_122#" "sky130_fd_pr__pfet_01v8_RXQGT8_0/a_111_131#" 41.6785
+cap "sky130_fd_pr__nfet_01v8_CG72G3_0/a_n33_n100#" "sky130_fd_pr__nfet_01v8_CG72G3_0/a_15_122#" 469.801
+cap "sky130_fd_pr__nfet_01v8_CG72G3_0/a_n33_n100#" "sky130_fd_pr__nfet_01v8_PE32AP_0/a_303_n100#" 426.185
+cap "sky130_fd_pr__nfet_01v8_CG72G3_0/a_15_122#" "sky130_fd_pr__nfet_01v8_PE32AP_0/a_303_n100#" 262.31
+cap "sky130_fd_pr__pfet_01v8_RXQGT8_0/a_n33_n100#" "sky130_fd_pr__pfet_01v8_RX8GT8_0/w_n257_n200#" -26.27
+cap "sky130_fd_pr__pfet_01v8_RXQGT8_0/a_n33_n100#" "sky130_fd_pr__pfet_01v8_RXQGT8_0/a_111_131#" 21.7236
 merge "sky130_fd_pr__nfet_01v8_CG72G3_0/a_63_n100#" "sky130_fd_pr__nfet_01v8_CG72G3_0/a_n125_n100#" -1370.44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 39840 -1272 -3800 -300 -25600 -1200 0 0 0 0 0 0
 merge "sky130_fd_pr__nfet_01v8_CG72G3_0/a_n125_n100#" "sky130_fd_pr__nfet_01v8_PE32AP_0/a_303_n100#"
 merge "sky130_fd_pr__nfet_01v8_PE32AP_0/a_303_n100#" "sky130_fd_pr__nfet_01v8_PE32AP_0/a_111_n100#"

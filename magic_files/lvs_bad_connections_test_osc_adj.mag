@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1618276297
+timestamp 1618429821
 << nwell >>
 rect 20 420 3460 980
 << metal1 >>
@@ -55,14 +55,14 @@ rect 1860 320 1980 380
 rect 2060 320 2300 380
 rect 2880 360 2920 480
 rect 2880 320 3180 360
+rect 2284 280 2360 290
 rect 1710 220 1720 280
 rect 1780 220 1790 280
 rect 1900 220 1910 280
 rect 1970 220 1980 280
 rect 2090 220 2100 280
 rect 2160 220 2170 280
-rect 2290 220 2300 280
-rect 2360 220 2370 280
+rect 2284 220 2370 280
 rect 1800 100 1810 160
 rect 1870 100 1880 160
 rect 2000 100 2010 160
@@ -101,7 +101,6 @@ rect 3360 570 3420 630
 rect 1720 220 1780 280
 rect 1910 220 1970 280
 rect 2100 220 2160 280
-rect 2300 220 2360 280
 rect 1810 100 1870 160
 rect 2010 100 2070 160
 rect 2200 100 2260 160
@@ -143,7 +142,7 @@ rect 3460 280 3500 680
 rect 1420 170 1480 230
 rect 1780 220 1910 280
 rect 1970 220 2100 280
-rect 2160 220 2300 280
+rect 2160 220 2360 280
 rect 1720 210 2360 220
 rect 3080 270 3500 280
 rect 3140 210 3500 270
@@ -159,34 +158,34 @@ rect 1420 90 3230 100
 << metal3 >>
 rect 440 560 1740 680
 rect 200 160 1480 240
-use sky130_fd_pr__pfet_01v8_RX8GT8  sky130_fd_pr__pfet_01v8_RX8GT8_0
-timestamp 1618272070
-transform 1 0 3197 0 1 660
-box -257 -200 257 200
-use sky130_fd_pr__nfet_01v8_CG72G3  sky130_fd_pr__nfet_01v8_CG72G3_0
-timestamp 1618272070
-transform 1 0 3105 0 1 188
-box -125 -188 125 188
 use test_inverter_adj  test_inverter_adj_0
-timestamp 1618254124
+timestamp 1618341885
 transform 1 0 -500 0 1 290
 box 520 -290 1070 680
 use test_inverter_adj  test_inverter_adj_1
-timestamp 1618254124
+timestamp 1618341885
 transform 1 0 100 0 1 290
 box 520 -290 1070 680
 use test_inverter_adj  test_inverter_adj_2
-timestamp 1618254124
+timestamp 1618341885
 transform 1 0 700 0 1 290
 box 520 -290 1070 680
-use sky130_fd_pr__nfet_01v8_PE32AP  sky130_fd_pr__nfet_01v8_PE32AP_0
-timestamp 1618046600
-transform 1 0 2085 0 1 188
-box -365 -188 365 188
 use sky130_fd_pr__pfet_01v8_RXQGT8  sky130_fd_pr__pfet_01v8_RXQGT8_0
 timestamp 1618048189
 transform 1 0 2409 0 1 660
 box -449 -200 449 200
+use sky130_fd_pr__nfet_01v8_PE32AP  sky130_fd_pr__nfet_01v8_PE32AP_0
+timestamp 1618046600
+transform 1 0 2085 0 1 188
+box -365 -188 365 188
+use sky130_fd_pr__nfet_01v8_CG72G3  sky130_fd_pr__nfet_01v8_CG72G3_0
+timestamp 1618272070
+transform 1 0 3105 0 1 188
+box -125 -188 125 188
+use sky130_fd_pr__pfet_01v8_RX8GT8  sky130_fd_pr__pfet_01v8_RX8GT8_0
+timestamp 1618272070
+transform 1 0 3197 0 1 660
+box -257 -200 257 200
 << labels >>
 rlabel metal3 480 600 520 640 1 vdd
 port 2 n power bidirectional
