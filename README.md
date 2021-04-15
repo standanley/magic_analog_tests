@@ -5,11 +5,13 @@ Below are the commands to run for various magic functions.
 
 #### LVS
 From magic:
+
     extract all
     ext2spice lvs
     ext2spice -o osc_adj_lvs.spice
 
 From the `magic_files/` folder:
+
     module load netgen
     export PDKPATH="/afs/ir.stanford.edu/class/ee272/PDKS/sky130A"
     netgen -batch lvs "../netlist_from_xschem.spice osc_adj" "osc_adj_lvs.spice test_osc_adj" $PDKPATH/libs.tech/netgen/sky130A_setup.tcl
@@ -17,6 +19,7 @@ From the `magic_files/` folder:
 
 #### PEX
 From magic:
+
     extract all
     ext2spice lvs
     ext2spice cthresh 0
@@ -25,11 +28,12 @@ From magic:
 
 #### GDS
 From magic:
-    gds write osc_adj.gdsV
 
+    gds write osc_adj.gds
 
 #### LEF
 From magic:
+
     lef write osc_adj.lef
 
 ### Some useful magic shortcuts
